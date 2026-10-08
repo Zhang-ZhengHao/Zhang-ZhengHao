@@ -12,11 +12,11 @@ CommerceOps Desk is a synthetic ecommerce operations desk that proves a signed p
 
 - React + TypeScript interface with a FastAPI, SQLAlchemy, and Alembic backend
 - Tenant-scoped Manager/Agent RBAC, optimistic concurrency, retry-safe commands, and ordered audit history
-- Fresh, byte-identical replay, post-signing tamper, and stale-signature webhook scenarios
+- Fresh, byte-identical replay, post-signing tamper, and stale-timestamp webhook scenarios
 - Safe event provenance and GET-only recovery after a committed delivery whose refresh failed
 - Single-node SQLite demo plus live PostgreSQL 17 CI for migrations, constraints, concurrency, and the hardened container path
 
-[Watch the v0.2 walkthrough](https://github.com/Zhang-ZhengHao/commerce-ops-desk/releases/tag/v0.2.0) · [Review the CI evidence](https://github.com/Zhang-ZhengHao/commerce-ops-desk/actions/workflows/verify.yml) · [Read the security model](https://github.com/Zhang-ZhengHao/commerce-ops-desk/blob/main/docs/security-model.md)
+[Watch the v0.2 walkthrough](https://github.com/Zhang-ZhengHao/commerce-ops-desk/releases/tag/v0.2.0) · [Review the final CI run](https://github.com/Zhang-ZhengHao/commerce-ops-desk/actions/runs/37859704804) · [Read the versioned security model](https://github.com/Zhang-ZhengHao/commerce-ops-desk/blob/v0.2.0/docs/security-model.md)
 
 All identities, orders, and outcomes are synthetic. This release has no live store or payment-provider connection, asynchronous worker or outbox, automatic retry queue, exactly-once guarantee, or production-readiness claim.
 
@@ -28,11 +28,11 @@ A responsive ERP concept covering role-aware workflows across access, procuremen
 
 ### [E-commerce Lead Automation](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation)
 
-A tested Python and Streamlit workflow that turns sanitized XLSX/CSV customer messages into a reviewable lead queue, with deterministic offline processing, optional AI assistance, human confirmation before export, and spreadsheet formula-injection protection.
+A tested Python and Streamlit workflow that turns redacted XLSX/CSV customer messages into a reviewable lead queue, with deterministic offline processing, optional AI assistance, human confirmation before sendable export, and spreadsheet formula-injection protection.
 
 ### [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief)
 
-A tested Python and Streamlit tool that turns supplied public sources into evidence-linked briefs, preserves source-level traceability, exports reusable project files, and validates URLs and network destinations before fetching.
+A tested Python and Streamlit tool that supports up to five supplied public pages or pasted documents, preserves source-level traceability, and exports reusable project files.
 
 ## Technical focus
 
@@ -45,7 +45,7 @@ A tested Python and Streamlit tool that turns supplied public sources into evide
 ## Available for
 
 - Full-stack internal tools and operations dashboards
-- API integrations and audited business workflows
+- API integrations and auditable business workflows
 - Spreadsheet and data-workflow automation
 - AI-assisted tools that keep a human approval step
 
