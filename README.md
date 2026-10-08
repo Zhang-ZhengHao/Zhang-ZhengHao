@@ -1,44 +1,56 @@
 # Hi, I'm Zhenghao Zhang
 
-**Full-stack developer building workflow automation, data tools, and responsive web interfaces.**
+**Full-stack developer building reliable workflow tools, data automation, and responsive business interfaces.**
 
-I work across user interfaces, application logic, data processing, testing, and delivery. The portfolio projects below use synthetic or demo data and document both their implemented behavior and their current production boundaries.
+I work across frontend UX, API design, data modeling, testing, and delivery. The projects below use synthetic or demo data, provide reproducible evidence, and state their production boundaries explicitly.
 
-## Selected projects
+## Featured project
 
 ### [CommerceOps Desk](https://github.com/Zhang-ZhengHao/commerce-ops-desk)
 
-A full-stack ecommerce exception desk built with React, TypeScript, FastAPI, SQLAlchemy, Alembic, and Playwright. It implements tenant-scoped Manager/Agent workflows, RBAC, auditable case writes, optimistic-concurrency conflicts, and idempotent retries, backed by API, migration, component, and desktop/mobile browser tests. [Watch the release walkthrough](https://github.com/Zhang-ZhengHao/commerce-ops-desk/releases/tag/v0.1.0).
+CommerceOps Desk is a synthetic ecommerce operations desk that proves a signed payment-failure event from HMAC-authenticated ingress through an assigned and resolved case.
 
-All data is synthetic. The current release is a single-node SQLite demo; live PostgreSQL validation, signed webhooks, transactional outbox processing, and real commerce-provider integrations remain explicit production boundaries.
+- React + TypeScript interface with a FastAPI, SQLAlchemy, and Alembic backend
+- Tenant-scoped Manager/Agent RBAC, optimistic concurrency, retry-safe commands, and ordered audit history
+- Fresh, byte-identical replay, post-signing tamper, and stale-signature webhook scenarios
+- Safe event provenance and GET-only recovery after a committed delivery whose refresh failed
+- Single-node SQLite demo plus live PostgreSQL 17 CI for migrations, constraints, concurrency, and the hardened container path
 
-### [HAURUX ERP Portfolio](https://github.com/zhang-zhenghao/haurux-erp-portfolio)
+[Watch the v0.2 walkthrough](https://github.com/Zhang-ZhengHao/commerce-ops-desk/releases/tag/v0.2.0) · [Review the CI evidence](https://github.com/Zhang-ZhengHao/commerce-ops-desk/actions/workflows/verify.yml) · [Read the security model](https://github.com/Zhang-ZhengHao/commerce-ops-desk/blob/main/docs/security-model.md)
 
-A responsive HTML, CSS, and JavaScript ERP concept/demo covering role-aware workflows across access, procurement, inventory, sales, and accounting. The repository includes bilingual documentation, a proposed 37-screen scope map, accessibility considerations, contract tests, and a [live GitHub Pages demo](https://zhang-zhenghao.github.io/haurux-erp-portfolio/).
+All identities, orders, and outcomes are synthetic. This release has no live store or payment-provider connection, asynchronous worker or outbox, automatic retry queue, exactly-once guarantee, or production-readiness claim.
 
-### [E-commerce Lead Automation](https://github.com/zhang-zhenghao/ecommerce-lead-automation)
+## Other selected work
 
-A Python and Streamlit application that turns XLSX/CSV customer-message files into a reviewable lead queue. It includes deterministic offline processing, optional OpenAI-compatible API integration, human confirmation before export, Excel formula-injection protection, and automated tests.
+### [HAURUX ERP Portfolio](https://github.com/Zhang-ZhengHao/haurux-erp-portfolio)
 
-### [Market Research Brief](https://github.com/zhang-zhenghao/market-research-brief)
+A responsive ERP concept covering role-aware workflows across access, procurement, inventory, sales, and accounting. It includes bilingual documentation, a proposed 37-screen scope map, accessibility considerations, contract tests, and a [live GitHub Pages demo](https://zhang-zhenghao.github.io/haurux-erp-portfolio/).
 
-A Python and Streamlit application that turns supplied public sources or pasted text into reviewable research briefs. It preserves source evidence, exports Markdown and JSON project files, and applies URL and network-address validation before fetching public pages.
+### [E-commerce Lead Automation](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation)
+
+A tested Python and Streamlit workflow that turns sanitized XLSX/CSV customer messages into a reviewable lead queue, with deterministic offline processing, optional AI assistance, human confirmation before export, and spreadsheet formula-injection protection.
+
+### [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief)
+
+A tested Python and Streamlit tool that turns supplied public sources into evidence-linked briefs, preserves source-level traceability, exports reusable project files, and validates URLs and network destinations before fetching.
 
 ## Technical focus
 
-- React, TypeScript, FastAPI, SQLAlchemy, Alembic, Playwright, and pytest
-- Tenant-scoped RBAC, idempotent command handling, optimistic concurrency, and audit trails
+- React, TypeScript, FastAPI, SQLAlchemy, Alembic, PostgreSQL, Playwright, and pytest
+- Tenant-scoped RBAC, authenticated webhooks, idempotency, optimistic concurrency, and audit trails
 - Python, Streamlit, pandas, openpyxl, HTML, CSS, and JavaScript
 - Spreadsheet ingestion, validation, structured exports, and responsive interfaces
-- Human-in-the-loop AI workflows with explicit review, security, and data boundaries
+- Human-in-the-loop AI workflows with explicit review, privacy, and security boundaries
 
 ## Available for
 
-- Internal tools and operations dashboards
+- Full-stack internal tools and operations dashboards
+- API integrations and audited business workflows
 - Spreadsheet and data-workflow automation
-- AI-assisted tools that require human review
-- Responsive interfaces for complex business workflows
+- AI-assisted tools that keep a human approval step
+
+English / 中文 · Available for remote freelance projects
 
 ## Contact
 
-For project inquiries, contact me through X or the hiring platform where you found this profile.
+For a technical question, use the [CommerceOps engineering inquiry form](https://github.com/Zhang-ZhengHao/commerce-ops-desk/issues/new?template=engineering-feedback.yml) with synthetic data only. For private project details, contact me through the platform where you found this profile.
