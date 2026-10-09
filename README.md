@@ -30,6 +30,8 @@ A responsive ERP concept covering role-aware workflows across access, procuremen
 
 A tested Python and Streamlit workflow that turns redacted XLSX/CSV customer messages into a reviewable lead queue, with deterministic offline processing, optional AI assistance, human confirmation before sendable export, and spreadsheet formula-injection protection.
 
+[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/releases/tag/v0.1.0) · [Review the final CI run](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/actions/runs/37864303689) · [Read the release changelog](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/blob/v0.1.0/CHANGELOG.md)
+
 ### [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief)
 
 A tested Python and Streamlit tool that supports up to five supplied public pages or pasted documents, preserves source-level traceability, and exports reusable project files.
