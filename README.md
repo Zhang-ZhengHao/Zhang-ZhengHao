@@ -22,6 +22,14 @@ All identities, orders, and outcomes are synthetic. This release has no live sto
 
 ## Other selected work
 
+### [Zhenghao Project Desk](https://github.com/Zhang-ZhengHao/zhenghao-project-desk)
+
+A tested Next.js and TypeScript foundation for a project-intake portal, with responsive accessibility checks, pinned CI dependencies, public-history scanning, and a hardened non-root container path.
+
+[Review the main verification run](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/37931073269) · [Review the all-ref publication audit](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/37931405203) · [Read the architecture summary](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/blob/main/docs/design-summary.md)
+
+This is a foundation preview, not a finished intake service. It does not yet accept inquiries or provide PostgreSQL persistence, email verification, or owner authentication.
+
 ### [HAURUX ERP Portfolio](https://github.com/Zhang-ZhengHao/haurux-erp-portfolio)
 
 A responsive ERP concept covering role-aware workflows across access, procurement, inventory, sales, and accounting. It includes bilingual documentation, a proposed 37-screen scope map, accessibility considerations, contract tests, and a [live GitHub Pages demo](https://zhang-zhenghao.github.io/haurux-erp-portfolio/).
