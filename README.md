@@ -34,7 +34,9 @@ A tested Python and Streamlit workflow that turns redacted XLSX/CSV customer mes
 
 ### [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief)
 
-A tested Python and Streamlit tool that supports up to five supplied public pages or pasted documents, preserves source-level traceability, and exports reusable project files.
+A paste-only Python and Streamlit tool that turns up to five user-pasted documents into reviewable briefs, keeps ordered verbatim evidence, and exports Markdown, JSON, and ZIP handoff packages. Optional reference links remain unverified metadata and are never fetched.
+
+[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/market-research-brief/releases/tag/v0.1.0) · [Review the final CI run](https://github.com/Zhang-ZhengHao/market-research-brief/actions/runs/37883474695) · [Read the release changelog](https://github.com/Zhang-ZhengHao/market-research-brief/blob/v0.1.0/CHANGELOG.md)
 
 ## Technical focus
 
