@@ -4,6 +4,23 @@
 
 I work across frontend UX, API design, data modeling, testing, and delivery. The projects below use synthetic or demo data, provide reproducible evidence, and state their production boundaries explicitly.
 
+## Work with me / 项目合作
+
+English / 中文 · Available for remote freelance projects
+
+| Workflow | Relevant example |
+| --- | --- |
+| Turn customer-message spreadsheets into a reviewable follow-up queue | [E-commerce Lead Automation](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation) — XLSX/CSV input, reply drafts, human confirmation, and workbook export |
+| Assign and track ecommerce exceptions | [CommerceOps Desk](https://github.com/Zhang-ZhengHao/commerce-ops-desk) — synthetic cases, role-aware workflows, and audit history |
+| Organize supplied documents into a research brief | [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief) — pasted text, source excerpts, and Markdown/JSON/ZIP export |
+| Build a responsive business interface | [HAURUX ERP Portfolio](https://github.com/Zhang-ZhengHao/haurux-erp-portfolio) — ERP UI concept and browser demo |
+
+[Public project inquiry / 公开项目咨询](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/issues/new?title=Project%20inquiry&body=This%20issue%20is%20public.%20Use%20fictional%20examples%20only%3B%20do%20not%20attach%20real%20customer%20files%2C%20personal%20information%2C%20or%20credentials.%0A%E8%BF%99%E6%98%AF%E5%85%AC%E5%BC%80%E5%92%A8%E8%AF%A2%EF%BC%8C%E8%AF%B7%E5%8F%AA%E4%BD%BF%E7%94%A8%E8%99%9A%E6%9E%84%E5%9C%BA%E6%99%AF%EF%BC%8C%E4%B8%8D%E8%A6%81%E4%B8%8A%E4%BC%A0%E7%9C%9F%E5%AE%9E%E5%AE%A2%E6%88%B7%E6%96%87%E4%BB%B6%E3%80%81%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E6%88%96%E5%AF%86%E9%92%A5%E3%80%82%0A%0AWorkflow%20to%20improve%20%2F%20%E6%83%B3%E6%94%B9%E5%96%84%E7%9A%84%E6%B5%81%E7%A8%8B%3A%0A%0AExpected%20output%20%2F%20%E5%B8%8C%E6%9C%9B%E5%BE%97%E5%88%B0%E7%9A%84%E7%BB%93%E6%9E%9C%3A%0A%0AReference%20project%20%2F%20%E5%8F%82%E8%80%83%E4%BD%9C%E5%93%81%3A%0A)
+
+GitHub sign-in is required and the issue is public. Start with a fictional workflow, the output you need, and a relevant example above. Keep real customer files, personal information, credentials, and confidential business details out of the issue. For private project details and pricing, contact me through the freelance platform where you found this profile.
+
+该咨询需要登录 GitHub，提交后公开。请只用虚构场景填写提纲，不要提交真实客户文件、个人信息或账号密钥；私密业务细节、范围、价格和工期请在原接单平台确认。
+
 ## Featured project
 
 ### [CommerceOps Desk](https://github.com/Zhang-ZhengHao/commerce-ops-desk)
@@ -28,7 +45,7 @@ A tested Next.js and TypeScript foundation for a project-intake portal, with res
 
 [Review the main verification run](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/37931073269) · [Review the all-ref publication audit](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/37931405203) · [Read the architecture summary](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/blob/main/docs/design-summary.md)
 
-This is a foundation preview, not a finished intake service. It does not yet accept inquiries or provide PostgreSQL persistence, email verification, or owner authentication.
+This is a foundation preview. The repository includes a PostgreSQL schema, migration tooling, and health/readiness endpoints; public inquiry submission, email verification, and owner authentication are still planned.
 
 ### [HAURUX ERP Portfolio](https://github.com/Zhang-ZhengHao/haurux-erp-portfolio)
 
@@ -54,15 +71,6 @@ A paste-only Python and Streamlit tool that turns up to five user-pasted documen
 - Spreadsheet ingestion, validation, structured exports, and responsive interfaces
 - Human-in-the-loop AI workflows with explicit review, privacy, and security boundaries
 
-## Available for
-
-- Full-stack internal tools and operations dashboards
-- API integrations and auditable business workflows
-- Spreadsheet and data-workflow automation
-- AI-assisted tools that keep a human approval step
-
-English / 中文 · Available for remote freelance projects
-
 ## Contact
 
-For a technical question, use the [CommerceOps engineering inquiry form](https://github.com/Zhang-ZhengHao/commerce-ops-desk/issues/new?template=engineering-feedback.yml) with synthetic data only. For private project details, contact me through the platform where you found this profile.
+For a technical question about CommerceOps Desk, use the [engineering feedback form](https://github.com/Zhang-ZhengHao/commerce-ops-desk/issues/new?template=engineering-feedback.yml) with synthetic data only.
