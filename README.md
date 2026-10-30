@@ -8,12 +8,12 @@ I work across frontend UX, API design, data modeling, testing, and delivery. The
 
 English / 中文 · Available for remote freelance projects
 
-| Workflow | Relevant example |
+| Workflow / 需求场景 | Relevant example / 对应作品 |
 | --- | --- |
-| Turn customer-message spreadsheets into a reviewable follow-up queue | [E-commerce Lead Automation](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation) — XLSX/CSV input, reply drafts, human confirmation, and workbook export |
-| Assign and track ecommerce exceptions | [CommerceOps Desk](https://github.com/Zhang-ZhengHao/commerce-ops-desk) — synthetic cases, role-aware workflows, and audit history |
-| Organize supplied documents into a research brief | [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief) — pasted text, source excerpts, and Markdown/JSON/ZIP export |
-| Build a responsive business interface | [HAURUX ERP Portfolio](https://github.com/Zhang-ZhengHao/haurux-erp-portfolio) — ERP UI concept and browser demo |
+| Turn customer-message spreadsheets into a reviewable follow-up queue<br>把客户留言表整理成可审核的跟进队列 | [E-commerce Lead Automation](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation) — XLSX/CSV input, reply drafts, human confirmation, and workbook export<br>XLSX/CSV 导入、回复草稿、人工确认和工作簿导出 |
+| Assign and track ecommerce exceptions<br>分派并跟进电商异常事项 | [CommerceOps Desk](https://github.com/Zhang-ZhengHao/commerce-ops-desk) — synthetic cases, role-aware workflows, and audit history<br>合成演示案例、角色权限和审计记录 |
+| Organize supplied documents into a research brief<br>把提供的资料整理成研究简报 | [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief) — pasted text, source excerpts, and Markdown/JSON/ZIP export<br>粘贴正文、保留原文片段，导出 Markdown/JSON/ZIP |
+| Build a responsive business interface<br>制作适配桌面和移动端的业务界面 | [HAURUX ERP Portfolio](https://github.com/Zhang-ZhengHao/haurux-erp-portfolio) — ERP UI concept and browser demo<br>ERP 界面概念和浏览器演示 |
 
 [Public project inquiry / 公开项目咨询](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/issues/new?title=Project%20inquiry&body=This%20issue%20is%20public.%20Use%20fictional%20examples%20only%3B%20do%20not%20attach%20real%20customer%20files%2C%20personal%20information%2C%20or%20credentials.%0A%E8%BF%99%E6%98%AF%E5%85%AC%E5%BC%80%E5%92%A8%E8%AF%A2%EF%BC%8C%E8%AF%B7%E5%8F%AA%E4%BD%BF%E7%94%A8%E8%99%9A%E6%9E%84%E5%9C%BA%E6%99%AF%EF%BC%8C%E4%B8%8D%E8%A6%81%E4%B8%8A%E4%BC%A0%E7%9C%9F%E5%AE%9E%E5%AE%A2%E6%88%B7%E6%96%87%E4%BB%B6%E3%80%81%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E6%88%96%E5%AF%86%E9%92%A5%E3%80%82%0A%0AWorkflow%20to%20improve%20%2F%20%E6%83%B3%E6%94%B9%E5%96%84%E7%9A%84%E6%B5%81%E7%A8%8B%3A%0A%0AExpected%20output%20%2F%20%E5%B8%8C%E6%9C%9B%E5%BE%97%E5%88%B0%E7%9A%84%E7%BB%93%E6%9E%9C%3A%0A%0AReference%20project%20%2F%20%E5%8F%82%E8%80%83%E4%BD%9C%E5%93%81%3A%0A)
 
