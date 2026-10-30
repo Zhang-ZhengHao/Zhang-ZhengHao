@@ -33,7 +33,7 @@ CommerceOps Desk is a synthetic ecommerce operations desk that proves a signed p
 - Safe event provenance and GET-only recovery after a committed delivery whose refresh failed
 - Single-node SQLite demo plus live PostgreSQL 17 CI for migrations, constraints, concurrency, and the hardened container path
 
-[Watch the v0.2 walkthrough](https://github.com/Zhang-ZhengHao/commerce-ops-desk/releases/tag/v0.2.0) · [Review the final CI run](https://github.com/Zhang-ZhengHao/commerce-ops-desk/actions/runs/37859704804) · [Read the versioned security model](https://github.com/Zhang-ZhengHao/commerce-ops-desk/blob/v0.2.0/docs/security-model.md)
+[Watch the v0.2 walkthrough](https://github.com/Zhang-ZhengHao/commerce-ops-desk/releases/tag/v0.2.0) · [Review main verification (2026-10-29)](https://github.com/Zhang-ZhengHao/commerce-ops-desk/actions/runs/40889348102) · [Read the versioned security model](https://github.com/Zhang-ZhengHao/commerce-ops-desk/blob/v0.2.0/docs/security-model.md)
 
 All identities, orders, and outcomes are synthetic. This release has no live store or payment-provider connection, asynchronous worker or outbox, automatic retry queue, exactly-once guarantee, or production-readiness claim.
 
@@ -43,7 +43,7 @@ All identities, orders, and outcomes are synthetic. This release has no live sto
 
 A tested Next.js and TypeScript foundation for a project-intake portal, with responsive accessibility checks, pinned CI dependencies, public-history scanning, and a hardened non-root container path.
 
-[Review the main verification run](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/37931073269) · [Review the all-ref publication audit](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/37931405203) · [Read the architecture summary](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/blob/main/docs/design-summary.md)
+[Review main verification (2026-10-29)](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/40897317057) · [Review the all-ref publication audit](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/actions/runs/37931405203) · [Read the architecture summary](https://github.com/Zhang-ZhengHao/zhenghao-project-desk/blob/main/docs/design-summary.md)
 
 This is a foundation preview. The repository includes a PostgreSQL schema, migration tooling, and health/readiness endpoints; public inquiry submission, email verification, and owner authentication are still planned.
 
@@ -55,13 +55,13 @@ A responsive ERP concept covering role-aware workflows across access, procuremen
 
 A tested Python and Streamlit workflow that turns redacted XLSX/CSV customer messages into a reviewable lead queue, with deterministic offline processing, optional AI assistance, human confirmation before sendable export, and spreadsheet formula-injection protection.
 
-[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/releases/tag/v0.1.0) · [Review the final CI run](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/actions/runs/37864303689) · [Read the release changelog](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/blob/v0.1.0/CHANGELOG.md)
+[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/releases/tag/v0.1.0) · [Review main verification (2026-10-29)](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/actions/runs/40900497206) · [Read the release changelog](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/blob/v0.1.0/CHANGELOG.md)
 
 ### [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief)
 
 A paste-only Python and Streamlit tool that turns up to five user-pasted documents into reviewable briefs, keeps ordered verbatim evidence, and exports Markdown, JSON, and ZIP handoff packages. Optional reference links remain unverified metadata and are never fetched.
 
-[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/market-research-brief/releases/tag/v0.1.0) · [Review the final CI run](https://github.com/Zhang-ZhengHao/market-research-brief/actions/runs/37883474695) · [Read the release changelog](https://github.com/Zhang-ZhengHao/market-research-brief/blob/v0.1.0/CHANGELOG.md)
+[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/market-research-brief/releases/tag/v0.1.0) · [Review main verification (2026-10-29)](https://github.com/Zhang-ZhengHao/market-research-brief/actions/runs/40881936300) · [Read the release changelog](https://github.com/Zhang-ZhengHao/market-research-brief/blob/v0.1.0/CHANGELOG.md)
 
 ## Technical focus
 
