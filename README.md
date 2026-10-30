@@ -55,13 +55,13 @@ A responsive ERP concept covering role-aware workflows across access, procuremen
 
 A tested Python and Streamlit workflow that turns redacted XLSX/CSV customer messages into a reviewable lead queue, with deterministic offline processing, optional AI assistance, human confirmation before sendable export, and spreadsheet formula-injection protection.
 
-[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/releases/tag/v0.1.0) · [Review main verification (2026-10-29)](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/actions/runs/40900497206) · [Read the release changelog](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/blob/v0.1.0/CHANGELOG.md)
+[Preview synthetic output (中文)](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/blob/main/examples/synthetic-results.md) · [Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/releases/tag/v0.1.0) · [Review main verification (2026-10-30)](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/actions/runs/41010620193) · [Read the release changelog](https://github.com/Zhang-ZhengHao/ecommerce-lead-automation/blob/v0.1.0/CHANGELOG.md)
 
 ### [Market Research Brief](https://github.com/Zhang-ZhengHao/market-research-brief)
 
 A paste-only Python and Streamlit tool that turns up to five user-pasted documents into reviewable briefs, keeps ordered verbatim evidence, and exports Markdown, JSON, and ZIP handoff packages. Optional reference links remain unverified metadata and are never fetched.
 
-[Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/market-research-brief/releases/tag/v0.1.0) · [Review main verification (2026-10-29)](https://github.com/Zhang-ZhengHao/market-research-brief/actions/runs/40881936300) · [Read the release changelog](https://github.com/Zhang-ZhengHao/market-research-brief/blob/v0.1.0/CHANGELOG.md)
+[Preview synthetic output (中文)](https://github.com/Zhang-ZhengHao/market-research-brief/blob/main/examples/synthetic-brief.md) · [Open the v0.1.0 release](https://github.com/Zhang-ZhengHao/market-research-brief/releases/tag/v0.1.0) · [Review main verification (2026-10-30)](https://github.com/Zhang-ZhengHao/market-research-brief/actions/runs/41006142448) · [Read the release changelog](https://github.com/Zhang-ZhengHao/market-research-brief/blob/v0.1.0/CHANGELOG.md)
 
 ## Technical focus
 
